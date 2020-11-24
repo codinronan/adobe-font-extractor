@@ -12,6 +12,7 @@ The "c" folder contains two files: entitlements.xml which is a manifest of all t
 The "e" and "r" folders both contain font files, but on Windows the files in "e" are hidden. The files appear to be exactly the same in both places.
 
 The xml structure of entitlements.xml is as follows:
+``` xml
 	<typekitSyncState>
 		<fonts type="array">
 			<font>
@@ -23,7 +24,7 @@ The xml structure of entitlements.xml is as follows:
 					<variationName>
 					<familyURL>
 					<sortOrder>
-
+```
 
 Each font `id` field contains a serial number that corresponds to the obfuscated font files.
 
